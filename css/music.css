@@ -1,0 +1,273 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0%;
+    width: 100%;
+}
+
+.imagen header img{
+    width: 100%;
+}
+.imagen{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 100px;   
+}
+
+.music{
+    font-size: 196px;
+    color: aliceblue;
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-42%, -50%);
+}
+
+section img{
+    margin-right: 200px;
+    width: 25%;
+    float: right;
+    margin-top: -12px;
+}
+.parrafo{
+    margin-left: 200px;
+    margin-bottom: 200px;
+}
+.parrafo button{
+    background-color: rgb(253, 62, 62);
+    border-radius: 10px;
+    color: #eee;
+    padding: 10px;
+    border: none;
+}
+span{
+    background: linear-gradient(90deg,orange,purple);-webkit-background-clip: text;
+    color: transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500px;
+    font-size: 200%;
+}
+h2{
+    font-size: 200%;
+    margin-top: -12px;
+}
+
+.clear{
+    clear: both;
+}
+#wesli{
+    float: left;
+    margin-left: 169px;
+}
+section{
+    margin: 30px 300px;
+}
+.segundoboton{
+    background-color: rgb(253, 62, 62);
+    border-radius: 10px;
+    color: #eee;
+    padding: 10px;
+    border: none;
+    margin-left: 697px;
+}
+.clear{
+    clear: both;
+}
+.piedepagina{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-top: 5%;
+}
+.texto1{
+    font-size: 64px;
+    color: aliceblue;
+    position: absolute;
+    top: 34%;
+    left: 70%;
+    transform: translate(-42%, -50%);
+}
+.texto2{
+    font-size: 64px;
+    color: aliceblue;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-42%, -50%);
+}
+.texto33{
+    font-size: 15px;
+    color: aliceblue;
+    position: absolute;
+    top: 68%;
+    left: 72%;
+    transform: translate(-42%, -50%);
+}
+.piedepagina button{
+    background-color: rgb(253, 62, 62);
+    border-radius: 10px;
+    color: #eee;
+    padding: 10px;
+    border: none;
+    margin-left: -411px;
+}
+.columnas{
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+    color: white;
+}
+footer{
+    background-color: rgba(245, 86, 86, 0.967);
+    margin-top: -5px;
+    padding: 10px 39px ;
+}
+.correo{
+    float: right;
+    margin-top: -20px;
+    color: white;
+}
+
+
+@media(max-width:1200px){
+    body{
+        width: 1000px;
+    }
+    .music {
+        font-size: 128px;
+        color: aliceblue;
+        position: absolute;
+        top: 43%;
+        left: 50%;
+        transform: translate(-42%, -50%);
+    }   
+
+    .imagen header img {
+        width: 100%;
+    }
+    .music {
+        left: 49%;
+        font-size: 108px;
+    }
+    section img {
+            margin-right: 176px;
+            width: 386px;
+    }
+    span {
+        font-size: 273%;
+    }
+    section {
+        margin: 30px -91px;
+    }
+    h2 {
+        font-size: 209%;
+        margin-top: 50px;
+    }
+    .parrafo2 {
+        float: left;
+        margin-left: 645px;
+        margin-top: -627px;
+        
+    }
+    .parrafo {
+        margin-left: 149px;
+        margin-bottom: 213px;
+    }
+    .parrafo p{
+        width: 494px;
+    }
+    #wesli {
+        float: left;
+        margin-left: 125px;
+    }
+    .segundoboton {
+        margin-left: 7px;
+    }
+    .piedepagina img{
+        width: 100%;
+    }
+    .texto1 {
+        font-size: 36px;
+        color: aliceblue;
+        position: absolute;
+        top: 16%;
+        left: 70%;
+        transform: translate(-42%, -50%);
+    }
+    .texto2 {
+        font-size: 35px;
+        color: aliceblue;
+        position: absolute;
+        top: 29%;
+        left: 70%;
+        transform: translate(-42%, -50%);
+    }
+    .texto33 {
+        font-size: 13px;
+        color: aliceblue;
+        position: absolute;
+        top: 55%;
+        left: 69%;
+        transform: translate(-42%, -50%);
+    }
+    .piedepagina button {
+        background-color: rgb(253, 62, 62);
+        border-radius: 10px;
+        color: #eee;
+        padding: 10px;
+        border: none;
+        margin-left: -153px;
+    }
+}
+    
+
+@media(max-width:992px){
+    .music {
+        font-size: 116px;
+        color: aliceblue;
+        position: absolute;
+        top: 43%;
+        left: 50%;
+        transform: translate(-40%, -50%);
+    }
+
+}
+
+@media(max-width:768px){
+    .texto33 {
+        font-size: 16px;
+        color: aliceblue;
+        position: absolute;
+        top: 67%;
+        left: 69%;
+        transform: translate(-42%, -50%);
+    }
+    .piedepagina button {
+        background-color: rgb(253, 62, 62);
+        border-radius: 10px;
+        color: #eee;
+        padding: 12px;
+        border: none;
+        margin-left: -196px;
+    }
+    .texto2 {
+        font-size: 44px;
+        color: aliceblue;
+        position: absolute;
+        top: 30%;
+        left: 69%;
+        transform: translate(-42%, -50%);
+    }
+    .texto1 {
+        font-size: 45px;
+        color: aliceblue;
+        position: absolute;
+        top: 13%;
+        left: 69%;
+        transform: translate(-42%, -50%);
+    }
+    .segundoboton {
+        padding: 18px; 
+    }
+
+}
